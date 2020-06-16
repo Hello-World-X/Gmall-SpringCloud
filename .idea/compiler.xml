@@ -6,9 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-config-client" />
         <module name="cloud-config-server" />
         <module name="cloud-eureka-server" />
         <module name="cloud-feign-server" />
+        <module name="cloud-gateway" />
+        <module name="cloud-hystrix" />
+        <module name="cloud-zuul" />
         <module name="gmall-api" />
         <module name="gmall-manage-service" />
         <module name="gmall-manage-web" />
@@ -20,9 +24,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud-config-client" target="1.8" />
       <module name="cloud-config-server" target="1.8" />
       <module name="cloud-eureka-server" target="1.8" />
       <module name="cloud-feign-server" target="1.8" />
+      <module name="cloud-gateway" target="1.8" />
+      <module name="cloud-hystrix" target="1.8" />
+      <module name="cloud-zuul" target="1.8" />
       <module name="gmall-api" target="1.5" />
       <module name="gmall-manage-service" target="1.8" />
       <module name="gmall-manage-web" target="1.8" />

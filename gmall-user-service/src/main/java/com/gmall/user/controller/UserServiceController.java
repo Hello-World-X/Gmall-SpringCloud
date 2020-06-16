@@ -19,6 +19,9 @@ public class UserServiceController {
 
     @RequestMapping("/getAllUser")
     List<UmsMember> getAllUser(){
+        if(false){
+            throw new RuntimeException("66666666666666666");
+        }
         return userService.getAllUser();
     }
 

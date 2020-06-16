@@ -30,7 +30,6 @@ public class UserServiceImpl implements UserService {
     public List<UmsMember> getAllUser() {
 
         List<UmsMember> umsMembers = userMapper.selectAll();//userMapper.selectAllUser();
-
         return umsMembers;
     }
 

@@ -1,0 +1,42 @@
+#server:
+#  port: 8062
+#
+#spring:
+#  application:
+#    name: config-server
+#  cloud:
+#    config:
+#      #开启Config服务发现支持
+#      discovery:
+#         enabled: true
+#      # 配置仓库的分支
+#    #  label: master
+#      server:
+#        git:
+#          # 配置仓库路径
+#          # application-profile
+#        #  search-paths: config-client
+#          # 配置git仓库地址
+#          uri: https://github.com/Hello-World-X/Gmall-Cloud-Config.git
+#          # 访问git仓库的用户名
+#        #  password:
+#          # 访问git仓库的用户密码 如果Git仓库为公开仓库，可以不填写用户名和密码，如果是私有仓库需要填写
+#        #  username:
+
+
+
+
+
+server:
+  port: 8062
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Hello-World-X/Gmall-Cloud-Config.git #GitHub上面的git仓库名字
+
+

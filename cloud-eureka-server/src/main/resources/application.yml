@@ -1,17 +1,20 @@
+server:
+  port: 8061
+
 security:
   basic:
-    enabled: true
+    enabled: false
   user:
-    name: user
-    password: password123
-server:
-  port: 8761
+    name: gmall
+    password: gmall123
+
+
+
 eureka:
+  instance:
+    hostname: eureka8061.comm
   client:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://user:password123@localhost:8761/eureka
-logging:
-  level:
-    root: INFO
+      defaultZone: http://${security.user.name}:${security.user.password}@${eureka.instance.hostname}:${server.port}/eureka

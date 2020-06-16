@@ -2,9 +2,7 @@ package com.gmall.user.controller;
 
 import com.gmall.entity.UmsMember;
 import com.gmall.entity.UmsMemberReceiveAddress;
-import com.gmall.service.UserService;
-import com.gmall.user.feign.UserServiceFeign;
-import jdk.nashorn.internal.ir.annotations.Reference;
+import com.gmall.feign.UserServiceFeign;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

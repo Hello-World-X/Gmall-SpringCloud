@@ -1,0 +1,38 @@
+server:
+  port: 8064
+
+spring:
+  application:
+    name: zuul-gateway-server
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8061/eureka
+  instance:
+    instance-id: zuul-gaetway-server
+    prefer-ip-address: true
+
+zuul:
+  #ignored-services: microservicecloud-dept
+  # 访问的前缀，所有的请求前面都需要加
+  prefix: /gmall
+  # 不再提供原来服务的服务名
+  ignored-services: "*"
+  routes:
+    user-web:
+      serviceId: user-web   # 需要替换请求的服务
+      path: /user/**     # 修改后的请求路径，加上 /user 前缀，即 /gmall/user/**
+      # 之前的访问路径：http://localhost:8084/user-web/getAllUser
+      # 现在：http://localhost:8084/gmall/user/getAllUser
+    user-service:
+      serviceId: user-service
+      path: /userService/**
+
+
+info:
+  app.name: zuul-gateway-server
+  company.name: www.gmall.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+

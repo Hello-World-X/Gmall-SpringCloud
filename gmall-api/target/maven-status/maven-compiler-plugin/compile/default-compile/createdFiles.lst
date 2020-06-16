@@ -1,0 +1,16 @@
+com\gmall\entity\PmsSearchCrumb.class
+com\gmall\service\AttrService.class
+com\gmall\fallback\UserServiceFallBackFactory.class
+com\gmall\entity\PmsBaseSaleAttr.class
+com\gmall\entity\OmsCartItem.class
+com\gmall\service\UserService.class
+com\gmall\service\CatalogService.class
+com\gmall\service\OrderService.class
+com\gmall\service\SearchService.class
+com\gmall\entity\PmsSearchParam.class
+com\gmall\entity\OmsOrder.class
+com\gmall\fallback\UserServiceFallBackFactory$1.class
+com\gmall\entity\PmsSearchSkuInfo.class
+com\gmall\entity\PaymentInfo.class
+com\gmall\service\CartService.class
+com\gmall\service\PaymentService.class

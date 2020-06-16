@@ -4,6 +4,7 @@ D:\MyJavaWorkSpace\Gmall-SpringCloud\gmall-api\src\main\java\com\gmall\entity\Pm
 D:\MyJavaWorkSpace\Gmall-SpringCloud\gmall-api\src\main\java\com\gmall\entity\UmsMemberReceiveAddress.java
 D:\MyJavaWorkSpace\Gmall-SpringCloud\gmall-api\src\main\java\com\gmall\service\SearchService.java
 D:\MyJavaWorkSpace\Gmall-SpringCloud\gmall-api\src\main\java\com\gmall\service\AttrService.java
+D:\MyJavaWorkSpace\Gmall-SpringCloud\gmall-api\src\main\java\com\gmall\feign\UserServiceFeign.java
 D:\MyJavaWorkSpace\Gmall-SpringCloud\gmall-api\src\main\java\com\gmall\entity\PmsSkuAttrValue.java
 D:\MyJavaWorkSpace\Gmall-SpringCloud\gmall-api\src\main\java\com\gmall\service\UserService.java
 D:\MyJavaWorkSpace\Gmall-SpringCloud\gmall-api\src\main\java\com\gmall\entity\PmsProductSaleAttrValue.java
@@ -27,6 +28,7 @@ D:\MyJavaWorkSpace\Gmall-SpringCloud\gmall-api\src\main\java\com\gmall\service\C
 D:\MyJavaWorkSpace\Gmall-SpringCloud\gmall-api\src\main\java\com\gmall\entity\PaymentInfo.java
 D:\MyJavaWorkSpace\Gmall-SpringCloud\gmall-api\src\main\java\com\gmall\entity\PmsSearchCrumb.java
 D:\MyJavaWorkSpace\Gmall-SpringCloud\gmall-api\src\main\java\com\gmall\entity\PmsSkuSaleAttrValue.java
+D:\MyJavaWorkSpace\Gmall-SpringCloud\gmall-api\src\main\java\com\gmall\fallback\UserServiceFallBackFactory.java
 D:\MyJavaWorkSpace\Gmall-SpringCloud\gmall-api\src\main\java\com\gmall\service\SpuService.java
 D:\MyJavaWorkSpace\Gmall-SpringCloud\gmall-api\src\main\java\com\gmall\service\CartService.java
 D:\MyJavaWorkSpace\Gmall-SpringCloud\gmall-api\src\main\java\com\gmall\entity\PmsBaseCatalog2.java

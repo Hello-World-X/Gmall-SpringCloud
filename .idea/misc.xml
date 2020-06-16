@@ -15,6 +15,10 @@
         <option value="$PROJECT_DIR$/gmall-manage-service/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-manage-web/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-gateway/pom.xml" />
       </list>
     </option>
   </component>
