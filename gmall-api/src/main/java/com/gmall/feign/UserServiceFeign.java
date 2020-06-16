@@ -15,7 +15,7 @@ import java.util.List;
  * 其他需要添加 @RequestParam(value="") 指定字段
  */
 
-@FeignClient(value = "user-service", fallbackFactory = UserServiceFallBackFactory.class)
+@FeignClient(value = "user-service", fallbackFactory = UserServiceFallBackFactory.class, path = "/userService")
 public interface UserServiceFeign {
     @RequestMapping(value = "/userService/getAllUser", method = RequestMethod.POST)
     List<UmsMember> getAllUser();
